@@ -1,0 +1,13 @@
+.Container {
+    background-color: #ffffff;
+    color: #ffffff;
+    border: 5px solid black;
+    padding: 50px;
+    text-align: center;
+}
+
+.title{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100px;
+    color: rgb(214, 152, 12);
+}

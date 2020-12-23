@@ -1,0 +1,31 @@
+.menu-bar-items {
+    background-color: black;
+    padding: 0vw;
+    margin-top: 1.5vw;
+    margin-bottom: 1.5vw;
+    border: 1px solid rgb(153, 153, 153);
+	border-radius: 7px;
+	border-spacing: 0px;
+    background: black;
+
+    display: flex;
+    align-items: stretch;
+    flex-direction: row nowrap;
+    justify-content: left;
+    
+    text-align: center;
+    font-family: sans-serif;
+    color: black;
+}
+
+.menu-bar-items > li {
+    list-style-type: none;
+    padding: 3vw;
+    border-right: 1px solid blue;
+
+    text-decoration: none;
+}
+
+.menu-bar-items > li:hover {
+    background-color: rgb(0, 68, 255);
+}

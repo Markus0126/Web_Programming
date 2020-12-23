@@ -1,0 +1,45 @@
+.state {
+    background: #ffffff;
+    height: 5vw;
+    width: 20vw;
+    padding: 1vw;
+    border-radius: 5vw;
+    margin: 1vw auto;
+    font-family: sans-serif;
+    color: black;
+    overflow-x: auto;
+    text-align: center;
+}
+
+.state:hover {
+    border: 5.vw solid rgb(253, 255, 128);
+}
+
+.searchbar {
+    background-color: #e9723a;
+    color: #ffffff;
+    padding: 1.5vw;
+    font-family: sans-serif;
+    color: black;
+    text-align: center;
+}
+
+.displayList{
+    background-color: gray;
+    color: #ffffff;
+    padding: 1.5vw;
+}
+
+.header{
+    font-family: sans-serif;
+    color: black;
+    text-align: center;
+}
+
+.list {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 1vw;
+    row-gap: 1.5vw;
+    align-items: center;
+}
